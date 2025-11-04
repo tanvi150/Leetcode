@@ -1,3 +1,10 @@
+# Leetcode: 9. Palindrome Number
+# Link: https://leetcode.com/problems/palindrome-number/
+# Problem: Check if a certain given integer is a palindrome or not, indicated by a Boolean.
+# Approach: Get the last digit of each iteration, reverse the loop and compare
+# Time Complexity: O(log x)
+# Space Complexity: O(1)
+
 class Solution(object):
     def isPalindrome(self, x):
         # Negative numbers are not palindromes
